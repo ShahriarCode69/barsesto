@@ -10,41 +10,66 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header container">
+    <a class="header__logo" href="#">
+      <img src="/icon.svg" alt="">
+      <h1>baRsesTo</h1>
+    </a>
+    <nav class="header__navbar">
+      <ul class="header__menu">
+        <li>
+          <a href="#" class="header__menu--links">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="header__menu--links">Menu</a>
+        </li>
+        <li>
+          <a href="#" class="header__menu--links">Reviews</a>
+        </li>
+        <li>
+          <a href="#" class="header__menu--links">Contact</a>
+        </li>
+        <button class="header__cta btn1">
+          <a href="#">Reserve Table</a>
+        </button>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <!-- MOBILE NAVIGATION -->
+  <div class="mobile--nav">
     <nav>
-      <a class="header__logo" href="#">
-        <img src="/icon.svg" alt="">
-        <h1>baRsesTo</h1>
-      </a>
-      <ul class="header__menu" id="menuList"> 
-        <li class="header__menu--items">
-          <a href="#">About Us</a>
+      <ul class="mobile--nav__menu">
+        <li>
+          <a href="#" class="mobile--nav__link">About Us</a>
         </li>
-        <li class="header__menu--items">
-          <a href="#">Menu</a>
+        <li>
+          <a href="#" class="mobile--nav__link">Menu</a>
         </li>
-        <li class="header__menu--items">
-          <a href="#">Reviews</a>
+        <li>
+          <a href="#" class="mobile--nav__link">Reviews</a>
         </li>
-        <li class="header__menu--items">
-          <a href="#">Contact</a>
+        <li>
+          <a href="#" class="mobile--nav__link">Contact</a>
         </li>
-        <div class="header__cta">
-          <div class="header__cta--cart">
+        <div class="mobile__cta">
+          <div class="mobile__cta--cart">
             <a href="#">
               <i class="ri-shopping-cart-fill btn2"></i>
             </a>
           </div>
-          <button class="header__cta--btn btn1">
+          <button class="mobile__cta--btn btn1">
             <a href="#">Reserve Table</a>
           </button>
         </div>
       </ul>
-      <div class="header__nav--bars">
-        <i class="ri-menu-line" onclick="toggleMenu()"></i>
-      </div>
     </nav>
-  </header>
+  </div>
   <main></main>
   <footer></footer>
   <script type="module" src="../src/main.js"></script>
