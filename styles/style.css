@@ -4,6 +4,7 @@
   --clr-dark: #08090d;
   --clr-dark-shade: #08090d;
   --clr-light: #fff6e7;
+  --clr-light-shade: #ffdb9c;
   --clr-primary: #f2bd57;
   --clr-primary-dark: #45241c;
   --clr-stone400: #a8a29e;
@@ -65,7 +66,7 @@ button {
 }
 
 a {
-  color: var(--clr-light);
+  color: var(--clr-dark);
   text-decoration: none;
 }
 

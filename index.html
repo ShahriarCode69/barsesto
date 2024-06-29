@@ -1,14 +1,53 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>baRsesTo</title>
-  </head>
-  <body>
-    <button class="btn1">Hello World</button>
-    <button class="btn2">Hello World</button>
-    <script type="module" src="../src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>baRsesTo</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <a class="header__logo" href="#">
+        <img src="/icon.svg" alt="">
+        <h1>baRsesTo</h1>
+      </a>
+      <ul class="header__menu" id="menuList"> 
+        <li class="header__menu--items">
+          <a href="#">About Us</a>
+        </li>
+        <li class="header__menu--items">
+          <a href="#">Menu</a>
+        </li>
+        <li class="header__menu--items">
+          <a href="#">Reviews</a>
+        </li>
+        <li class="header__menu--items">
+          <a href="#">Contact</a>
+        </li>
+        <div class="header__cta">
+          <div class="header__cta--cart">
+            <a href="#">
+              <i class="ri-shopping-cart-fill btn2"></i>
+            </a>
+          </div>
+          <button class="header__cta--btn btn1">
+            <a href="#">Reserve Table</a>
+          </button>
+        </div>
+      </ul>
+      <div class="header__nav--bars">
+        <i class="ri-menu-line" onclick="toggleMenu()"></i>
+      </div>
+    </nav>
+  </header>
+  <main></main>
+  <footer></footer>
+  <script type="module" src="../src/main.js"></script>
+</body>
+
 </html>
