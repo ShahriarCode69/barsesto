@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
-  --clr-dark: #14021a;
-  --clr-dark-shade: #2C1B43;
-  --clr-light: #FDF6FF;
-  --clr-primary: #d946ef;
-  --clr-slate500: #b1a1bd;
-  --clr-strong: #fcd34d;
+  --clr-dark: #08090d;
+  --clr-dark-shade: #08090d;
+  --clr-light: #fff6e7;
+  --clr-primary: #f2bd57;
+  --clr-primary-dark: #45241c;
+  --clr-stone400: #a8a29e;
 
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
@@ -28,6 +28,7 @@
 * {
   margin: 0;
   line-height: calc(1em + 0.5rem);
+  box-sizing: border-box;
 }
 
 html {
@@ -37,11 +38,9 @@ html {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
   font-family: "Outfit", sans-serif;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
 }
 
