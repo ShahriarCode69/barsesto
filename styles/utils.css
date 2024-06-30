@@ -46,15 +46,14 @@
   padding-block: 0.5em;
   padding-inline: 1em;
   border-radius: 20px;
-  border: 2px solid var(--clr-primary-dark);
   color: var(--clr-primary-dark);
   font-weight: 600;
   transition: 0.3s ease;
+  box-shadow:#6b5120 0px 4px 0px;
 }
 
 .btn1:hover {
-  background-color: #dfac4f;
-  transform: translateY(-0.2rem);
+  box-shadow: #6b5120 4px 4px 0px;
 }
 
 .btn2 {

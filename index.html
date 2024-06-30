@@ -11,66 +11,67 @@
 
 <body>
   <header class="header container">
-    <a class="header__logo" href="#">
-      <img src="/icon.svg" alt="">
+    <a href="#" class="header__logo">
+      <img class="header__logo" src="/icon.svg" alt="" width="50px">
       <h1>baRsesTo</h1>
     </a>
-    <nav class="header__navbar">
-      <ul class="header__menu">
-        <li>
-          <a href="#" class="header__menu--links">About Us</a>
-        </li>
-        <li>
-          <a href="#" class="header__menu--links">Menu</a>
-        </li>
-        <li>
-          <a href="#" class="header__menu--links">Reviews</a>
-        </li>
-        <li>
-          <a href="#" class="header__menu--links">Contact</a>
-        </li>
-        <button class="header__cta btn1">
-          <a href="#">Reserve Table</a>
-        </button>
-      </ul>
-      <button class="header__bars">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path>
-        </svg>
-      </button>
-    </nav>
-  </header>
-
+		<nav>
+			<ul class="header__menu">
+				<li>
+					<a class="header__link" href="#">About</a>
+				</li>
+				<li>
+					<a class="header__link" href="#">Menu</a>
+				</li>
+				<li>
+					<a class="header__link" href="#">Reviews</a>
+				</li>
+				<li>
+					<a class="header__link" href="#">Contact</a>
+				</li>
+				<button>
+					<a href="#" class="btn1">Reserve Table</a>
+				</button>
+			</ul>
+			<button aria-label="Mobile-menu-button" class="header__bars">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path></svg>
+			</button>
+		</nav>
+		<!-- <div class="nav-coor"></div> -->
+	</header>
   <!-- MOBILE NAVIGATION -->
-  <div class="mobile--nav">
-    <nav>
-      <ul class="mobile--nav__menu">
-        <li>
-          <a href="#" class="mobile--nav__link">About Us</a>
-        </li>
-        <li>
-          <a href="#" class="mobile--nav__link">Menu</a>
-        </li>
-        <li>
-          <a href="#" class="mobile--nav__link">Reviews</a>
-        </li>
-        <li>
-          <a href="#" class="mobile--nav__link">Contact</a>
-        </li>
-        <div class="mobile__cta">
-          <div class="mobile__cta--cart">
-            <a href="#">
-              <i class="ri-shopping-cart-fill btn2"></i>
-            </a>
-          </div>
-          <button class="mobile__cta--btn btn1">
-            <a href="#">Reserve Table</a>
-          </button>
-        </div>
-      </ul>
-    </nav>
-  </div>
-  <main></main>
+  <div class="mobile-nav">
+		<nav>
+			<ul class="mobile-nav__menu">
+				<li>
+					<a class="mobile-nav__link" href="#">About</a>
+				</li>
+				<li>
+					<a class="mobile-nav__link" href="#">Menu</a>
+				</li>
+				<li>
+					<a class="mobile-nav__link" href="#">Reviews</a>
+				</li>
+				<li>
+					<a class="mobile-nav__link" href="#">Contact</a>
+				</li>
+				<button>
+					<a href="#" class="btn1 mobile-nav__link">Reserve Table</a>
+				</button>
+			</ul>
+		</nav>
+	</div>
+  <main>
+    <section class="container hero">
+			
+		</section>
+
+    <section class="container section popular"></section>
+    <section class="container section about"></section>
+    <section class="container section menu"></section>
+    <section class="container section reviews"></section>
+    <section class="container section contact"></section>
+  </main>
   <footer></footer>
   <script type="module" src="../src/main.js"></script>
 </body>

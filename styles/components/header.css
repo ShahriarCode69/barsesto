@@ -1,3 +1,5 @@
+/* Desktop NavBar */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -11,24 +13,12 @@
 .header__logo {
   display: flex;
   align-items: center;
+  gap: 0.4rem;
 }
 
-.header__logo img {
-  width: 3rem;
-}
-
-.header__logo h1 {
-  font-size: 2rem;
-}
 
 .header__menu {
   display: none;
-}
-
-.header__cta {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
 }
 
 .header__bars {
@@ -50,24 +40,25 @@
 
 /* md  */
 @media (min-width: 768px) {
-  .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 2rem;
-  }
-  .header__navbar {
-    display: flex;
-    gap: 4rem;
-    align-items: center;
-  }
   .header__menu {
     display: flex;
     align-items: center;
-    list-style-type: none;
+    list-style: none;
     padding: 0;
-    gap: 2.5rem;
+    gap: 3em;
+  }
+
+  .header__link {
     font-size: var(--size-sm);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--clr-dark);
+    letter-spacing: 0.01em;
+    transition: color 0.3s;
+  }
+
+  .header__link:hover {
+    color: var(--clr-primary2);
   }
 
   .header__bars {
@@ -76,16 +67,18 @@
 }
 
 /* lg  */
-/* @media (min-width: 1024px){
-    
- } */
+@media (min-width: 1024px) {
+  .header__link {
+    font-size: var(--size-base);
+  }
+}
 
 /* xl  */
 /* @media (min-width: 1280px){
-    
- } */
+  
+} */
 
 /* 2xl  */
 /* @media (min-width: 1536px){
-    
- } */
+  
+} */
