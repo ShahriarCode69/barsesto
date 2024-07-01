@@ -23,11 +23,11 @@
   text-transform: uppercase;
 }
 
-.hero__content--title span{
+/* .hero__content--title span{
   background-color: var(--clr-primary);
   padding-inline: 1rem;
   font-size: var(--size-4xl);
-}
+} */
 
 .hero__content--description {
   text-align: center;
@@ -47,6 +47,27 @@
 .hero__img {
   width: 25rem;
   margin-inline: auto;
+}
+
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4em;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
 }
 
 
