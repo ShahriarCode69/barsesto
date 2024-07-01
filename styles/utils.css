@@ -45,15 +45,13 @@
   background-color: var(--clr-primary);
   padding-block: 0.5em;
   padding-inline: 1em;
-  border-radius: 20px;
+  border-radius: 10px;
   color: var(--clr-primary-dark);
   font-weight: 600;
   transition: 0.3s ease;
-  box-shadow:#6b5120 0px 4px 0px;
 }
 
 .btn1:hover {
-  box-shadow: #6b5120 4px 4px 0px;
 }
 
 .btn2 {

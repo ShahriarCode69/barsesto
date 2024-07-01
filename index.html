@@ -66,12 +66,8 @@
 	<main>
 		<section class="container hero">
 			<div class="hero__content">
-				<h1 class="hero__content--title">We Serve The Taste<br>
-					<span class="ml-10">
-						<span class="text-wrapper ">
-							<span class="letters">YOU LOVE!</span>
-						</span>
-					</span>
+				<h1 class="hero__content--title ml10">We Serve The Taste<br>
+					<span>YOU LOVE!</span>
 				</h1>
 				<p class="hero__content--description">This is a type restaurant which typically serves burgers and coffees. In
 					addition to light refreshments such as baked goods or snacks. The comes from the rench word meaning food</p>
@@ -89,27 +85,6 @@
 		<section class="container section contact"></section>
 	</main>
 	<footer></footer>
-
-
-	<script>
-		// Wrap every letter in a span
-		var textWrapper = document.querySelector('.ml10 .letters');
-		textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>L</span>");
-
-		anime.timeline({ loop: true })
-			.add({
-				targets: '.ml10 .letter',
-				rotateY: [-90, 0],
-				duration: 1300,
-				delay: (el, i) => 45 * i
-			}).add({
-				targets: '.ml10',
-				opacity: 0,
-				duration: 1000,
-				easing: "easeOutExpo",
-				delay: 1000
-			});
-	</script>
 	<script type="module" src="../src/main.js"></script>
 </body>
 
