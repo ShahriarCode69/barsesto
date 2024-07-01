@@ -63,6 +63,7 @@
 
   .header__btn {
     font-size: var(--size-lg);
+    position: relative;
   }
 
   .header__bars {
