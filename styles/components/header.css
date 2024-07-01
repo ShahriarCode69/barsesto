@@ -61,6 +61,10 @@
     color: var(--clr-primary2);
   }
 
+  .header__btn {
+    font-size: var(--size-lg);
+  }
+
   .header__bars {
     display: none;
   }
