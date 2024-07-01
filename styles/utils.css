@@ -57,20 +57,20 @@
 }
 
 .btn2 {
-  background-color: transparent;
+  background-color: var(--clr-primary-dark);
   padding-block: 0.5em;
   padding-inline: 1em;
-  color: var(--clr-primary-dark);
-  border: 2px solid var(--clr-primary);
+  color: var(--clr-primary);
   border-radius: 20px;
   font-weight: 600;
+  box-shadow:#6b5120 0px 4px 0px;
   transition: all 0.3s ease;
 }
 
 .btn2:hover{
   background-color: var(--clr-primary);
   border-color: var(--clr-primary-dark);
-  transform: translateY(-0.2rem);
+  box-shadow: #6b5120 4px 4px 0px;
 }
 
 
