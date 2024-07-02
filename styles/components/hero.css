@@ -28,6 +28,7 @@
   padding-inline: 1rem;
   font-size: var(--size-4xl);
   text-align: start;
+  border-radius: 10px;
 }
 
 .hero__content--description {

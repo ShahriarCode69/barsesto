@@ -68,7 +68,7 @@
   height: 100%;
   background-color: var(--clr-primary);
   transform: skewX(35deg);
-  z-index: -1;
+  z-index: -9999;
   transition: width 0.3s ease;
 }
 

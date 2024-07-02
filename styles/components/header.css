@@ -28,6 +28,11 @@
   display: block;
 }
 
+
+.header__btn {
+  font-size: var(--size-base);
+}
+
 /* xs  */
 /* @media (min-width: 475px){
     
@@ -61,11 +66,6 @@
     color: var(--clr-primary2);
   }
 
-  .header__btn {
-    font-size: var(--size-lg);
-    position: relative;
-  }
-
   .header__bars {
     display: none;
   }
@@ -75,6 +75,10 @@
 @media (min-width: 1024px) {
   .header__link {
     font-size: var(--size-base);
+  }
+
+  .header__btn {
+    font-size: var(--size-lg);
   }
 }
 
