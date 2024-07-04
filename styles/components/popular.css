@@ -1,0 +1,12 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.popular__title {
+  font-size: var(--size-3xl);
+  font-weight: 800;
+  color: var(--clr-dark);
+}
+
