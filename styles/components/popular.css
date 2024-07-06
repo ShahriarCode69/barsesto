@@ -18,12 +18,13 @@
 }
 
 .popular__card {
-  background-color: var(--clr-light-dark-shade);
+  background-color: white;
   max-width: 350px;
   padding: 1.3125rem;
   border-radius: 31px;
   text-align: center;
   margin-inline: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .popular__card img {

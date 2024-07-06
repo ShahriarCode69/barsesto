@@ -39,6 +39,10 @@
   width: 100%;
 }
 
+.about__services strong {
+  padding-bottom: 1rem;
+}
+
 /* xs  */
 /* @media (min-width: 475px){
     
