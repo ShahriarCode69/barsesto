@@ -18,7 +18,7 @@
 }
 
 .popular__card {
-  background-color: white;
+  background-color: #fffbf0;
   max-width: 350px;
   padding: 1.3125rem;
   border-radius: 31px;
@@ -30,6 +30,7 @@
 .popular__card img {
   margin-bottom: 1rem;
   border-radius: 10px;
+  mix-blend-mode: multiply;
 }
 
 .popular__card--title {

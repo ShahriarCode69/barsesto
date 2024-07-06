@@ -78,7 +78,7 @@
 }
 
 .btn2 {
-  background-color: #d6d6cb;
+  background-color: #ebe3c9;
   padding: 0.4em 0.9em;
   outline: none;
   border: 2px solid transparent;
@@ -93,7 +93,7 @@
 
 .btn2:hover {
   background-color: var(--clr-primary);
-  border: 2px solid var(--clr-primary-dark);
+  border: transparent 2px solid;
 }
 
 .description {
