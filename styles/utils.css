@@ -77,6 +77,13 @@
   width: 150%;
 }
 
+.description {
+  max-width: 60ch;
+  color: var(--clr-stone400);
+  font-size: var(--size-sm);
+  line-height: 1.2;
+}
+
 
 /* xs  */
 @media (min-width: 475px) {
@@ -96,6 +103,10 @@
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+
+  .description {
+    font-size: var(--size-base);
   }
 }
 
