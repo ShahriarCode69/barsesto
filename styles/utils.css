@@ -77,6 +77,25 @@
   width: 150%;
 }
 
+.btn2 {
+  background-color: #d6d6cb;
+  padding: 0.4em 0.9em;
+  outline: none;
+  border: 2px solid transparent;
+  margin: 0.25em;
+  border-radius: 1em;
+  color: var(--clr-primary-dark);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn2:hover {
+  background-color: var(--clr-primary);
+  border: 2px solid var(--clr-primary-dark);
+}
+
 .description {
   max-width: 60ch;
   color: var(--clr-stone400);
