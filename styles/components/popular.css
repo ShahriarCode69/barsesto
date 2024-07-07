@@ -24,7 +24,7 @@
   border-radius: 31px;
   text-align: center;
   margin-inline: auto;
-  border: 2px solid #e7cb897a;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .popular__card img {

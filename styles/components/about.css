@@ -1,6 +1,6 @@
 .about {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 1.5rem;
   margin-top: 6rem;
 }
