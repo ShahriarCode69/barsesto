@@ -84,7 +84,7 @@
     font-size: var(--size-base);
   }
 
-  .hero__content--btn1 {
+  .reserve__btn {
     font-size: var(--size-xl);
     width: fit-content;
   }
