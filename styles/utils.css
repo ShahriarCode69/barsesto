@@ -104,6 +104,15 @@
 }
 
 
+.inverse {
+  background-color: #fffbf096;
+}
+
+.full-bleed {
+  box-shadow: 0 0 0 100vmax #fffbf096;
+  clip-path: inset(0 -100vmax);
+}
+
 /* xs  */
 @media (min-width: 475px) {
   .container {

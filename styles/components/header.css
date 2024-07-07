@@ -4,10 +4,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  position: sticky;
+  top: 0;
   z-index: 9999;
+  backdrop-filter: blur(50px);
+  background-color: #fffbf0c5;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .header__logo {
