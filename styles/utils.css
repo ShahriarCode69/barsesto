@@ -103,6 +103,20 @@
   line-height: 1.2;
 }
 
+.scrollToTop {
+  position: fixed;
+  padding-block: 0.3rem;
+  padding-inline: 0.5rem;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--clr-primary);
+  color: var(--clr-dark);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: var(--size-4xl);
+}
+
 
 .inverse {
   background-color: #fffbf096;
