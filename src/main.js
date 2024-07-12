@@ -1,3 +1,4 @@
+
 import '../styles/modern-normalize.css'
 import '../styles/style.css'
 import '../styles/components/header.css'
@@ -9,7 +10,6 @@ import '../styles/components/reserve.css'
 import '../styles/components/reviews.css'
 import '../styles/components/contact.css'
 import '../styles/components/error200.css'
-
 import '../styles/components/mobile-nav.css'
 import '../styles/utils.css'
 
