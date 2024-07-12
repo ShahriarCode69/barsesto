@@ -14,6 +14,8 @@
     "vite": "^5.3.1"
   },
   "dependencies": {
-    "node": "^18.20.4"
+    "jquery": "^3.7.1",
+    "node": "^18.20.4",
+    "owl.carousel": "^2.3.4"
   }
 }
