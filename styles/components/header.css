@@ -64,11 +64,13 @@
     font-weight: 600;
     color: var(--clr-dark);
     letter-spacing: 0.01em;
-    transition: color 0.3s;
+    transition: all 0.3s;
+    padding: 0.5rem;
+    border-radius: 7px;
   }
 
   .header__link:hover {
-    color: var(--clr-primary2);
+    background-color: #aa894365;
   }
 
   .header__bars {
