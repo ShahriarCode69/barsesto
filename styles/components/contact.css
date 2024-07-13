@@ -62,7 +62,7 @@
 /* md  */
 @media (min-width: 768px){
    .contact{
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     margin-inline: auto;
    } 

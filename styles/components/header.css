@@ -7,7 +7,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 9999;
   backdrop-filter: blur(50px);
