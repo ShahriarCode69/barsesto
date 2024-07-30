@@ -4,12 +4,13 @@
   justify-content: center;
   flex-direction: column-reverse;
   gap: 1.5rem;
-  margin-top: 6rem;
+  margin-top: 12rem;
 }
 
 .about__img {
   width: 25rem;
   margin-inline: auto;
+  mix-blend-mode:multiply;
 }
 
 
@@ -92,20 +93,22 @@
       max-width: 550px;
     }
 
-    .about__title {
-      max-width: 90%;
-    }
-
     .about__img {
-      width: 38rem;
+      width: 30rem;
       margin-inline: auto;
     }
  }
 
 /* xl  */
-/* @media (min-width: 1280px){
-    
- } */
+@media (min-width: 1280px){
+  .about__title {
+    max-width: 90%;
+  }
+  .about__img {
+    width: 40rem;
+    margin-inline: auto;
+  }
+ }
 
 /* 2xl  */
 /* @media (min-width: 1536px){

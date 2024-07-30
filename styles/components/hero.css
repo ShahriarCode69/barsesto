@@ -15,7 +15,7 @@
 }
 
 .hero__content--title {
-  font-size: var(--size-3xl);
+  font-size: var(--size-4xl);
   text-align: center;
   line-height: 1.2;
   font-weight: 900;
@@ -26,7 +26,7 @@
 .hero__content--title span{
   background-color: var(--clr-primary);
   padding-inline: 1rem;
-  font-size: var(--size-4xl);
+  font-size: var(--size-5xl);
   text-align: start;
   border-radius: 10px;
 }
