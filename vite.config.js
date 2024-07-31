@@ -1,12 +1,6 @@
-import { resolve } from 'path'
-import { defineConfig } from 'vite'
-
-export default defineConfig({
+// vite.config.js
+export default {
   build: {
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'index.html')
-      },
-    },
-  },
-})
+    minify: false,
+  }
+};
