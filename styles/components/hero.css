@@ -50,7 +50,6 @@
 .hero__img {
   width: 25rem;
   margin-inline: auto;
-  filter: drop-shadow(-1px 9px 30px #9e762023);
 }
 
 /* xs  */
@@ -130,8 +129,6 @@
   
   .hero__img {
     width: 36rem;
-    position: relative;
-    right: -30px;
   }
  }
 
@@ -148,9 +145,8 @@
   }
 
   .hero__img {
-    width: 45rem;
+    width: 40rem;
     position: relative;
-    right: -100px;
   }
  }
 

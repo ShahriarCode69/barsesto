@@ -46,6 +46,7 @@ body {
   color: var(--clr-dark);
   font-family: "Outfit", sans-serif;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 
